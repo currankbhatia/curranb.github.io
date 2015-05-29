@@ -174,7 +174,7 @@ div {
 
 
 /*About Me*/
-#about_me {
+#real_about_me {
 /*	background-color: red;
 */	
 	background-color: blue;
@@ -208,7 +208,7 @@ div {
 
 	}
 
-	#above_about_me {
+	#about_me {
 
 		height: 50px;
 		width: auto;
@@ -216,7 +216,7 @@ div {
 
 
 /*News*/
-#news {
+#real_news {
 	background-image: url("chalkboard.jpg");
 	background-position: center;
 
@@ -246,7 +246,7 @@ div {
 */
 }
 
-	#above_news {
+	#news {
 
 		height: 50px;
 		width: auto;
