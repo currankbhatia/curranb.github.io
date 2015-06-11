@@ -1,0 +1,362 @@
+body {
+    background-color: white;
+
+    width: auto;
+
+    margin: 0;
+    padding: 0;
+
+    /*background-color: blue;*/
+	
+	background-image: url("profpic-op08.png");
+	background-position: center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+
+   	/*width: 900px;*/
+    height: 700px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    /*text-shadow: 4px 4px 4px #aaa;*/
+    color: white;
+
+
+
+ 	
+}
+
+
+div {
+
+	border-style: clear;
+}
+
+.view {
+	background-color: clear;
+/*	background-image: url("profilephoto.jpg");
+*/	margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    /*width: 900px;
+    height: 500px;*/
+   /* width: 70%;
+    height: 70%;*/
+
+
+}
+
+.white_break {
+
+	width: auto;
+    height: 100px;
+    /*width: 20%;
+    height: 20%;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title_text {
+
+	/*padding-left: 70px;*/
+}
+
+.title_text {
+
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#header {
+	background-color: clear;
+	width: auto;
+    height: 48px;
+   /* width: 10%;
+    height: 10%;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*padding-left: 100px;*/
+    display: table;
+    padding-top: 20px;
+    /*color: white;*/
+
+}
+
+	.header_link {
+	/*	float: left;
+	*/	margin-right: 20px;
+		font-size: 20px;
+		color: black;
+		text-decoration: none;
+		padding-left: 25px;
+		/*vertical-align: middle;
+		text-align: center;*/
+
+		font-weight: bold;
+		
+		padding-right: auto;
+		color: white;
+
+		
+	}
+
+	#home_link {
+		padding-left: 60px;
+		padding-right: 240px;
+		font-size: 30px;
+
+	}
+
+
+
+
+
+#within_top_part {
+	width: 400px;
+    height: 250px;
+    font-size: 30px;
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+
+	#top_part {
+
+
+
+		text-align: left;
+		/*vertical-align: middle;*/
+		/*position: relative;*/
+	    width: 900px;
+	    height: 500px;
+	    /*opacity: 0.8;*/
+
+
+
+
+
+	    /*	background-image: url("profilephoto.jpg");
+	*/	/*background-size: 1024px 683px;*/
+
+		/*background-color: blue;
+		background-image: url("profilepicture.jpg");
+		background-position: center;
+
+	    background-size: cover;
+
+	    background-repeat: no-repeat;*/
+
+	    /*width: 900px;
+	    height: 500px;*/
+
+	    /*height:auto; 
+	    width:auto; 
+	*/    /*max-width:1024px; 
+	    max-height:683px;*/
+
+		/*background-color: green;*/
+		/*width: 1024px;
+	    height: 683px;*/
+		/*width: 70%;
+	    height: 70%;*/
+
+	    /*margin-left: auto;
+	    margin-right: auto;*/
+
+	}
+
+	#end_cover_photo {
+		
+		width: auto;
+	    height: 160px;
+	    /*position: absolute;*/
+	    /*width: 20%;
+	    height: 20%;*/
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+
+/*About Me*/
+#real_about_me {
+/*	background-color: red;
+*/	
+	background-color: clear;
+	background-image: url("foellingerphoto_edited.JPG");
+	background-position: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+	width: 1000px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+	#text_about_me {
+		border: clear;
+		border-color: black;
+		width: 370px;
+		height: 200px;
+		background-color: clear;
+		color: white;
+		border-radius: 15px;
+		position: absolute;
+		/*top: 25%;*/
+		top: 920px;
+		left: 18%;
+		font-weight: 400;
+
+	}
+
+	#about_me {
+
+		height: 50px;
+		width: auto;
+	}
+
+
+/*News*/
+#real_news {
+	background-image: url("chalkboard.jpg");
+	background-position: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+	/*background-color: white; /*#00BFFF*/ 
+	width: 900px;
+    height: 500px;
+    border-style: clear;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 4%;
+    color: white;
+    border-radius: 5px;
+
+    
+
+
+
+
+    /*padding-left: 30px;*/
+
+
+    /*margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+	#news {
+
+		height: 50px;
+		width: auto;
+	}
+
+	#news_title {
+		padding-left: 1%;
+
+
+	}
+
+	#after_news {
+		height: 70px;
+		width: auto;
+	}
+
+
+
+/*Contact Me*/
+#contact_me {
+	/*background-color: black; /*#00BFFF*/
+
+	background-image: url("sky.bmp");
+	background-position: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+	 width: 600px;
+    height: 400px;
+    border-radius: 25px;
+    color: white;
+    border-style: clear;
+    text-align: center;
+    padding-top: 10%;
+
+    
+
+
+
+    /*vertical-align: middle;*/
+
+    
+    /*padding-left: 20%;
+    padding-right: 20%;*/
+
+
+
+    /*margin-left: auto;
+    margin-right: auto;*/
+
+}
+
+	#above_contact_me {
+
+		height: 20px;
+		width: auto;
+
+	}
+
+	.button {
+
+		height: 50px;
+		width: 200px;
+		border-radius: 20px;
+		border-style: solid;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: white;
+		text-decoration: none;
+		/*position: ;*/
+		/*vertical-align: middle;*/
+	}
+
+
+/*End*/
+#end {
+	
+	width: 900px;
+    height: 60px;
+    /*width: 10%;
+    height: 10%;
+*/    margin-left: auto;
+    margin-right: auto;
+    font-family: "Times New Roman"
+
+}
+
+
+
+.orange {
+
+	color: orange;
+
+}
+
+.blue {
+	color: blue;
+}
