@@ -1064,7 +1064,7 @@ body {
     padding-right: 40px;
 }
 
-@media(min-width:500px) {
+@media(min-width:800px) {
 
     #inner-about-me {
 
@@ -1099,8 +1099,15 @@ body {
     display: inline-block; 
     /*float: right; */
     /*width: 60%;*/
-    width: 400px;
-    height: 300px;
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    /*max-height: 300px;*/
+
+    margin-right: -100px;
+    padding-right: 30px;
+
+
     /*height: 100%;*/
     /*width: 55%;*/
     /*width="320" height="240"*/
