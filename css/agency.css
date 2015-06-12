@@ -293,6 +293,8 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+
 }
 
 header {
@@ -308,13 +310,20 @@ header {
     -o-background-size: cover;
     opacity: 1;
 
+
 }
 
 
 header .intro-text {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     width: 400px;
+    /*padding-left: 50px;*/
+    /*padding-right: 50px;*/
+
+
+
+
     /*border: solid;*/
 }
 
@@ -330,10 +339,21 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 50px;
 
+}
+
+#front-text {
+
+    /*padding-left: 0px;*/
+    text-align: center;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    /*padding-left: -200px;*/
+    margin-left: -30px;
+    /*padding-right: 200px;*/
 }
 
 @media(min-width:768px) {
@@ -358,6 +378,17 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 30px;
     }
+
+    #front-text {
+
+    /*padding-left: 0px;*/
+    text-align: center;
+    /*margin-left: auto;*/
+    margin-right: auto;
+    /*padding-left: -200px;*/
+    margin-left: auto;
+    /*padding-right: 200px;*/
+}
 }
 
 section {
@@ -385,20 +416,22 @@ section h3.section-subheading {
         padding: 150px 0;
     }
 
-    #contact_me {
+    
+}
 
-        padding: 100px 0;
-    }
+#contact_me {
 
-    #about_me {
-        padding: 100px 0;
-    }
+    padding: 100px 0;
+}
 
-    #news {
+#about_me {
+    padding: 100px 0;
+}
 
-        padding: 100px 0;
-        padding-bottom: 150px;
-    }
+#news {
+
+    padding: 100px 0;
+    padding-bottom: 150px;
 }
 
 .service-heading {
@@ -922,6 +955,11 @@ body {
     webkit-tap-highlight-color: #fed136;
 }
 
+
+
+/*FROM NOW ON, ALL NEW THINGS COME DOWN HERE*/
+
+
 #image_uiuc {
     /*background-image: url("img/uiuc-quad.jpg");
     width: 500px;
@@ -936,7 +974,24 @@ body {
 .bulk_image {
 
     display: inline;
+    /*margin-left: 20px;
+    margin-right: auto;*/
+    /*padding-left: 20px;*/
+    
 
+}
+
+ #uiuc_edit_img {
+    /*width: 350px;
+    height: 300px;*/
+    /*padding-left: 100px;*/
+    /*padding-left: 70px;*/
+    display: inline-block; 
+    float: center; 
+    width: 320px;
+    height: 240px;
+    /*width="320" height="240"*/
+    /*margin-right: -40px;  */
 }
 
 
@@ -983,19 +1038,83 @@ body {
 #inner-about-me {
 
     height: 300px;
-
+    /*width: 100%;*/
+    /*padding-left: 0;*/
 
 }
 
 .box_for_text {
 
-    padding-top: 100px;
-    width: 500px;
+/*    padding-top: 100px;
+*/    /*width: 500px;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
+    /*padding-left: 50px;
+    padding-right: 50px;*/
+
+}
+
+
+#news_text {
+
+    /*margin-left: auto;
+    margin-right: auto;*/
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@media(min-width:500px) {
+
+    #inner-about-me {
+
+        height: 300px;
+        /*width: 100px;*/
+
+
+    }
+
+    .box_for_text {
+
+        /*padding-top: 100px;*/
+        padding-top: 5%;
+        /*min-width: 300px*/
+        /*max-width: 500px;*/
+        width: 50%;
+        padding-right: 2%;
+        /*margin-left: auto;*/
+        /*padding-right: 10%;*/
+        /*margin-left: auto;
+        margin-right: auto;*/
+        /*padding-left: 50px;
+        padding-right: 50px;*/
+
+    }
+
+    #uiuc_edit_img {
+    /*width: 350px;
+    height: 300px;*/
+    /*padding-left: 100px;*/
+    /*padding-left: 70px;*/
+    display: inline-block; 
+    /*float: right; */
+    /*width: 60%;*/
+    width: 400px;
+    height: 300px;
+    /*height: 100%;*/
+    /*width: 55%;*/
+    /*width="320" height="240"*/
+    /*margin-right: -40px;  */
 }
 
 
 
+}
 
+#div_over_uiuc_img {
+
+    padding-left: 100px;
+}
 
 
 
