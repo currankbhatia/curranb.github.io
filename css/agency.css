@@ -1058,9 +1058,9 @@ body {
         }
 
 
-        /*#news {
+        #news {
 
-            background-image: url(../img/quad-urbana.jpg);
+            background-image: url(../img/UIUC_Quad2.jpg);
             background-position: center center;
             background-repeat: none;
             -webkit-background-size: cover;
@@ -1070,7 +1070,7 @@ body {
             opacity: 1;
 
 
-        }*/
+        }
 }
 
 /*FROM NOW ON, ALL NEW THINGS COME DOWN HERE*/
