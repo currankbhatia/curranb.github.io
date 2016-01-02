@@ -1049,7 +1049,7 @@ body {
         body {
             background: none no-repeat center center fixed;
             /*background-image: url(../img/profpic-op08.jpg);*/
-            background-color: black;
+            background-color: rgba(0,0,0,.90);
             /*background-attachment: fixed;*/
             background-position: center center;
             background-repeat: none;
@@ -1060,7 +1060,7 @@ body {
 
         #news {
 
-            background-image: url(../img/UIUC_Quad2.jpg);
+            background-image: url(../img/main-quad.jpg);
             background-position: center center;
             background-repeat: none;
             -webkit-background-size: cover;
