@@ -1024,7 +1024,7 @@ body {
     
 }
 
-@media only screen {
+@media only screen and (max-width : 768px){
 
 
 
@@ -1056,6 +1056,21 @@ body {
 
             -webkit-background-size: cover;
         }
+
+
+        /*#news {
+
+            background-image: url(../img/quad-urbana.jpg);
+            background-position: center center;
+            background-repeat: none;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+            opacity: 1;
+
+
+        }*/
 }
 
 /*FROM NOW ON, ALL NEW THINGS COME DOWN HERE*/
