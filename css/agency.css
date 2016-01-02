@@ -1031,7 +1031,7 @@ body {
         header {
             text-align: center;
             color: #fff;
-            background-attachment: scroll;
+            /*background-attachment: scroll;*/
 
             background-image: url(../img/profpic-op08.jpg);
             background-position: center center;
@@ -1070,6 +1070,26 @@ body {
             opacity: 1;
 
 
+        }
+
+        #contact_me {
+
+            text-align: center;
+            color: #fff;
+            background-attachment: scroll;
+
+
+        }
+
+        #contact-figure {
+
+            text-align: center;
+
+        }
+
+        #inner-about-me {
+
+            text-align: center;
         }
 }
 
