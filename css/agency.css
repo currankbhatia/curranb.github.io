@@ -1095,12 +1095,26 @@ body {
 
         #about-me-text {
 
-            width: 900px;
+            width: 700px;
             /*float: center;*/
             /*width: 50%;*/
 
 
         }
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+
+    #about-me-text {
+
+            width: 900px;
+            /*float: center;*/
+            /*width: 50%;*/
+
+
+    }
 }
 
 /*FROM NOW ON, ALL NEW THINGS COME DOWN HERE*/
