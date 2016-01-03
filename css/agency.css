@@ -1091,6 +1091,16 @@ body {
 
             text-align: center;
         }
+
+
+        #about-me-text {
+
+            width: 700px;
+            /*float: center;*/
+            /*width: 50%;*/
+
+
+        }
 }
 
 /*FROM NOW ON, ALL NEW THINGS COME DOWN HERE*/
